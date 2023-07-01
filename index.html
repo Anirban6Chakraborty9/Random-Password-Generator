@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator &#x265B; </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="header">
+            <h1>Random Password Generator</h1>
+        </div>
+        <br><br>
+
+        <div class="ipt">
+            <input type="text" class="show" id="pBox" value="Your Password" readonly>
+        </div>
+
+        <div class="row plength">
+            <div class="left">
+                Password Length:
+            </div>
+            <div class="right">
+                <input type="number" class="size" id="sizep" max="25" min="6" value="8" >
+            </div>
+        </div>
+
+        <div class="content">
+            <h3>Choose contents:</h3>
+        </div>
+
+        <div class="butns">
+            <div class="butn1">
+                <div>
+                    <button class="btn" id="btn1" onclick="change('btn1'); ">UpperCase</button>
+                </div>
+                <div>
+                    <button class="btn" id="btn2" onclick="change('btn2'); ">LowerCase</button>
+                </div>
+            </div>
+            <div class="butn1">
+                <div>
+                    <button class="btn" id="btn3" onclick="change('btn3'); ">Numbers</button>
+                </div>
+                <div>
+                    <button class="btn" id="btn4" onclick="change('btn4'); ">Symbols</button>
+                </div>
+            </div>
+        </div>
+        <div class="gen">
+            <button class="gpb" id="gp" onclick="call(); ">Generate</button>
+        </div>
+
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>

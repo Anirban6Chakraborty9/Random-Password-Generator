@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("10843397.png") center center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: aliceblue;
+    
+    flex-direction: column;
+}
+
+.header{
+    margin: 30px auto;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 1.3rem;
+}
+
+.ipt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    width: 30%;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: right;
+    font-family: 'Inconsolata', monospace; 
+    flex-direction:row;
+    align-items: center;
+    float: left;
+}
+
+.plength{
+    font-size: 1.3rem;
+    
+}
+
+.left{
+    margin: 0px 10px;
+}
+
+.size{
+    border-color: transparent;
+    background-color: rgba(241, 236, 236, 0.7);
+    font-family: 'Poppins', sans-serif;
+    font-size:0.9rem ;
+    font-weight: 600;
+    padding:0px 5px;
+}
+
+.show{
+    border-color: transparent;
+    background-color: rgba(241, 236, 236, 0.7);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    width: 50vh;
+    height: 7vh;
+    padding: 0px 10px;
+    font-size:1.2rem ;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.butns{
+    float:left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0px;
+}
+
+.btn{
+    cursor: pointer;
+    min-width: 30vh;
+    max-width: 40vh;
+    height: 5vh;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 1rem;
+    border-radius: 15px;
+    background-color: rgba(212, 177, 177, 0.6);
+    color: rgb(2, 2, 2);
+    border: 1px solid rgb(1, 1, 1);
+    margin: 1vh;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    border: 1px solid wheat;
+    box-shadow: 2px 2px rgb(244, 220, 190,0.8);
+}
+
+.gen{
+    text-align: center;
+    margin: 4vh 0px;
+}
+
+.gpb{
+    cursor: pointer;
+    min-width: 30vh;
+    max-width: 40vh;
+    height: 5vh;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 1rem;
+    border-radius: 15px;
+    background-color: rgba(212, 177, 177, 0.6);
+    color: rgb(2, 2, 2);
+    border: 1px solid rgb(1, 1, 1);
+    margin: 1vh;
+}
+
+.gpb:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color:rgb(126, 196, 56);
+    border: 2px solid black;
+    box-shadow: 5px 5px 32px rgba(232, 122, 18, 0.8);
+    font-weight: 600;
+}
+
+.content{
+    text-align: center;
+    min-width: 30vh;
+    max-width: 40vh;
+    margin: 3vh auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5vh;
+}
